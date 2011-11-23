@@ -1,21 +1,45 @@
 {
-	"style": {
-		"background-color": "white",
-		"border": 10
-	},
+    "style": {
+        "background-color": "white",
+        "border": 10
+    },
 
-	"contents": [
-		{
-			"name": "title",
-			"control": "TextView",
-			"label": "ArtiKata",
-			"style": {
-				"color": "black",
-				"width": "fill-parent",
-				"height": "fill-parent",
-				"align": "center",
-				"valign": "middle"
-			}
-		}
-	]
+    "contents": [
+        {
+            "name": "title",
+            "control": "TextView",
+            "label": "Arti-Kata",
+            "style": {
+                "color": "black",
+                "font-weight" : "bold",
+                "width": "fill-parent",
+                "height": 30,
+                "align": "center",
+                "valign": "middle",
+                "background-color": "#87CEEB"
+
+            }
+        },
+        {
+            "name": "valueMean",
+            "control": "TextView",
+            "label": "",
+            "style": {
+                "color" : "black",
+                "width" : "fill-parent",
+                "height" : "fill-parent"
+
+            }
+        },
+        {
+            "name": "textWord",
+            "control" : "InputBox",
+            "style": {
+                "background-color": "#87CEEB",
+                "width" : "fill-parent",
+                "height" : "wrap-content",
+                "border" : 4
+            }
+        }
+    ]
 }
